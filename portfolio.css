@@ -1,0 +1,77 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+.container{
+    margin-left: 14%;
+    margin: 0% 10%;
+}
+
+.logo{
+    margin-left: 14%;
+    float: left;
+    font-size: 4em;
+    border: 3.5px solid gray;
+    padding: 1px 2px 1px 0px;;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    border-radius: 50%;
+}
+.header{
+    text-align: right;
+}
+.name{
+    font-size: 3em;
+    margin: 2% 0%;
+}
+.role{
+    font-size: 1.5em;
+    margin: 2% 0%;
+}
+hr{
+    width: 86%;
+    border: 2px solid #8c8b8b;
+    margin: 0%;
+    margin-left: 14%;
+}
+
+img.image{
+    float: right;
+    height: 450px;
+    width: 86%;
+    margin-top: 20px;
+}
+
+.imagediv{
+    margin-right: 0%;
+}
+
+.color{
+    margin: 0%;
+    margin-left:10%; 
+}
+.color1{
+    padding: 2.5%;
+    height: 15px;
+    background-color: #8c8b8b;
+    border: 2px;
+    margin-bottom: 10px;
+    width: 2.5%;
+}
+.color2{
+    padding: 2.5%;
+    height: 15px;
+    background-color: #B30E0E;
+    border: 2px;
+    margin-bottom: 10px;
+    width: 2.5%;
+}
+.color3{
+    padding: 2.5%;
+    height: 15px;
+    background-color: #42C745;
+    border: 2px;
+    margin-bottom: 10px;
+    width: 2.5%;
+}
