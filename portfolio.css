@@ -60,12 +60,12 @@ img.image{
     flex: 14;
 }
 
-.color > ul{
+.color > div{
     margin: 0;
     padding: 0;
     float: left;
 }
-.color >ul> p{
+.color >div> p{
     font-weight: bolder;
     margin-top: 0%;
 }
