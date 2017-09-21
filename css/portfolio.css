@@ -8,16 +8,24 @@ body {
 }
 
 .header {
+    display: flex;
     color: #212d67;
+    border-bottom: 3px solid #aab4ee;
+}
+
+.header-right {
+    flex: 85%;
+    text-align: right;        
+}
+
+.header-left {
+    flex: 15%;
+    text-align: center;
 }
 
 .logo {
-    margin: 30% 0 15% 0%;
     color: #d35c76;
-    font-size: 2.5em;
     font-weight: bold;
-    height: 55px;
-    width: 60px;
     border: 3px solid #aab4ee;
     border-radius: 15%;
 }
@@ -30,25 +38,6 @@ body {
     margin: 1% 0%;
 }
 
-hr {
-    width: 100%;
-    border: 2px solid #aab4ee;
-    border-right: 0px;
-    border-left: 0px;
-    background-color: #aab4ee;
-}
-
-.color1 {
-    background-color: #aab4ee;
-}
-
-.color2 {
-    background-color: #d35c76;
-}
-.color3 {
-    background-color: #212d67;
-}
-
 /*
 media query for desktop screen
 */
@@ -57,54 +46,26 @@ media query for desktop screen
         margin: 0 10%;
     }
 
-    .header {
-        margin-left: 15%;
-    }
-    
-    .header-right {
-        width: 85%;
-        float: right;
-        text-align: right;
-    }
-    
-    .header-left {
-        width: 15%;
-        float: left;
-        text-align: center;
+    .logo {
+        margin: 30% 0 15% 0%;
+        font-size: 2.5em;
+        height: 55px;
+        width: 60px;
     }
 
     .intro-image-div {
         float: right;
-        width: 85%;
     }
     
     .intro-image {
         margin-top: 2%;
-        width: 100%;    
-    }
-
-    .used-color {
-        float: left;
-        width: 15%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .color-p {
-        margin: 0% 40% 15% 10%;
-        text-align: left;
-        font-size: 1em;
-        font-weight: bold;
-    }
-
-    .color {
-        padding: 20%;
-        margin: 0% 40% 0% 10%;
+        width: 100%;
+        min-height: 300px;
+        max-height: 400px;
     }
 
     .featured-work {
         float: right;
-        width: 85%;
         color: #212d67;
     }
 
@@ -141,40 +102,18 @@ media query for Tablet screen
         margin: 0 10%;
     }
 
-    .header-right {
-        width: 85%;
-        float: right;
-        text-align: right;
-    }
-    
-    .header-left {
-        width: 15%;
-        float: left;
-        text-align: center;
+    .logo {
+        margin: 30% 0 15% 0%;
+        font-size: 2.5em;
+        height: 55px;
+        width: 60px;
     }
 
     .intro-image {
         margin-top: 2%;
-        width: 100%;    
-    }
-    
-    .used-color {
-        display: flex;
-    }
-    .color-flex {
-        flex: 100%;
-    }
-
-    .color-p {
-        margin-top: 0%;
-        text-align: center;
-        font-size: 1em;
-        font-weight: bold;
-    }
-
-    .color {
-        padding: 25% 15%;
-        border: 20px solid #ffffff;
+        width: 100%;
+        min-height: 300px;
+        max-height: 400px;
     }
 
     .featured-work {
@@ -214,39 +153,15 @@ media query for Mobile screen
         margin: 0 5%;
     }
 
-    .header-right {
-        width: 100%;
-        text-align: center;
-    }
-    
-    .header-left {
-        display: none;
+    .logo {
+        margin: 50% 0%;
+        width: 40px;
+        font-size: 1.5em;
     }
     
     .intro-image {
         margin-top: 2%;
         width: 100%;    
-    }
-
-    .used-color {
-        display: flex;
-    }
-    
-    .color-flex {
-        flex: 100%;
-        margin: 5%;
-    }
-
-    .color-p {
-        margin-top: 0%;
-        text-align: center;
-        font-size: 1em;
-        font-weight: bold;
-    }
-    
-    .color {
-        padding: 30% 25%;
-        border: 1px solid #ffffff;
     }
 
     .featured-work {
@@ -260,14 +175,5 @@ media query for Mobile screen
     
     .project-p {
         text-align: center;
-    }
-}
-
-/*
-media query for screen that are less than mobile screen
-*/
-@media screen and (max-width:320px) {
-    .used-color {
-        display: none;
     }
 }
