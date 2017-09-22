@@ -64,8 +64,6 @@ media query for desktop screen
     .intro-image {
         margin-top: 2%;
         width: 100%;
-        min-height: 300px;
-        max-height: 400px;
     }
 
     .featured-work {
@@ -112,8 +110,6 @@ media query for Tablet screen
     .intro-image {
         margin-top: 2%;
         width: 100%;
-        min-height: 300px;
-        max-height: 400px;
     }
 
     .featured-work {
